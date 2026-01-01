@@ -193,6 +193,14 @@ body {
   background: rgba(0, 0, 0, 0.02);
 }
 
+.op {
+  font-family: "Source Code Pro";
+}
+
+.operands {
+  font-family: "Source Code Pro";
+}
+
 .flag-pill {
   display: inline-flex;
   align-items: center;

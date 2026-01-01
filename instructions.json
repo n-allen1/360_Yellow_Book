@@ -258,7 +258,7 @@
     "name": "Compare Logical",
     "op_code": "D5",
     "format": "SS",
-    "operands": "D1,(L,B1),D2(B2)",
+    "operands": "D1(L,B1),D2(B2)",
     "sets_conditionCode": true
   },
   {
