@@ -1,0 +1,234 @@
+:root {
+  --card-yellow: #f2ca4a;
+  --paper: #fff7d6;
+  --paper-2: #fff2bf;
+  --ink: #1b1b1b;
+  --muted: #5a5a5a;
+  --line: rgba(0, 0, 0, 0.12);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  --radius: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  color: var(--ink);
+  background: linear-gradient(180deg, var(--paper) 0%, #ffffff 70%);
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 28px auto;
+  padding: 0 16px;
+}
+
+.header-wrapper {
+  background-color: var(--card-yellow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 18px;
+  border-radius: 28px 28px 16px 16px;
+  box-shadow: var(--shadow);
+}
+
+.header {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.1;
+  letter-spacing: 0.2px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0px;
+  flex: 0 0 auto;
+}
+
+.search-input-wrapper {
+  position: relative;
+}
+
+.search-img {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.search-input {
+  width: min(440px, 52vw);
+  padding: 10px 12px;
+  padding-left: 38px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.75);
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: rgba(0, 0, 0, 0.45);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.btn {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.panel {
+  margin-top: 16px;
+  background: var(--paper-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 16px 18px;
+}
+
+.panel-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.panel-subtitle {
+  color: var(--muted);
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.field-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.field-toggles label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.muted {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.results-count {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* table card */
+.table-card {
+  margin-top: 16px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+}
+
+.data-table thead th {
+  text-align: left;
+  padding: 12px 12px;
+  background: #f4f4f4;
+  border-bottom: 1px solid var(--line);
+  font-weight: 800;
+}
+
+.data-table tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  vertical-align: top;
+}
+
+.data-table tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.flag-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 24px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 800;
+  margin-right: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.flag-cc {
+  background: deepskyblue;
+  color: #ffffff;
+}
+
+.flag-priv {
+  background: indianred;
+  color: #ffffff;
+}
+
+.flag-semi {
+  background: lightcoral;
+  color: #ffffff;
+}
+
+.flag-lCC {
+  background: lightblue;
+  color: #ffffff;
+}
+
+.details-link {
+  margin-left: 6px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #0b57d0;
+}

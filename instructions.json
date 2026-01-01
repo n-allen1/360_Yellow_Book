@@ -1,0 +1,3118 @@
+[
+  {
+    "mnemonic": "A",
+    "name": "Add",
+    "op_code": "5A",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AD",
+    "name": "Add Normalized (L)",
+    "op_code": "6A",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "ADR",
+    "name": "Add Normalized (L)",
+    "op_code": "1A",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AE",
+    "name": "Add Normalized (S)",
+    "op_code": "7A",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AER",
+    "name": "Add Normalized (S)",
+    "op_code": "3A",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AH",
+    "name": "Add Halfword",
+    "op_code": "4A",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AL",
+    "name": "Add Logical",
+    "op_code": "5E",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "ALR",
+    "name": "Add Logical",
+    "op_code": "1E",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AP",
+    "name": "Add Decimal",
+    "op_code": "FA",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AR",
+    "name": "Add",
+    "op_code": "1A",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AU",
+    "name": "Add Unnormalized (S)",
+    "op_code": "7E",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AUR",
+    "name": "Add Unnormalized (S)",
+    "op_code": "3E",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AW",
+    "name": "Add Unnormalized (L)",
+    "op_code": "6E",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AWR",
+    "name": "Add Unnormalized (L)",
+    "op_code": "2E",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "AXR",
+    "name": "Add Normalized (E)",
+    "op_code": "36",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "BAL",
+    "name": "Branch and Link",
+    "op_code": "45",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "BALR",
+    "name": "Branch and Link",
+    "op_code": "05",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "BAS",
+    "name": "Branch and Save",
+    "op_code": "4D",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "BASR",
+    "name": "Branch and Save",
+    "op_code": "0D",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "BC",
+    "name": "Branch on Condition",
+    "op_code": "47",
+    "format": "RX",
+    "operands": "M1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "BCR",
+    "name": "Branch on Condition",
+    "op_code": "07",
+    "format": "RR",
+    "operands": "M1,R2"
+  },
+  {
+    "mnemonic": "BCT",
+    "name": "Branch on Count",
+    "op_code": "46",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "BCTR",
+    "name": "Branch on Count",
+    "op_code": "06",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "BXH",
+    "name": "Branch on Index High",
+    "op_code": "86",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)"
+  },
+  {
+    "mnemonic": "BXLE",
+    "name": "Branch on Index Low or Equal",
+    "op_code": "87",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)"
+  },
+  {
+    "mnemonic": "C",
+    "name": "Compare",
+    "op_code": "59",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CD",
+    "name": "Compare (L)",
+    "op_code": "69",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CDR",
+    "name": "Compare (L)",
+    "op_code": "29",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CDS",
+    "name": "Compare Double and Swap",
+    "op_code": "BB",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CE",
+    "name": "Compare (S)",
+    "op_code": "79",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CER",
+    "name": "Compare (S)",
+    "op_code": "39",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CH",
+    "name": "Compare Halfword",
+    "op_code": "49",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CL",
+    "name": "Compare Logical",
+    "op_code": "55",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CLC",
+    "name": "Compare Logical",
+    "op_code": "D5",
+    "format": "SS",
+    "operands": "D1,(L,B1),D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CLCL",
+    "name": "Compare Logical Long",
+    "op_code": "0F",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true,
+    "is_interruptible": true
+  },
+  {
+    "mnemonic": "CLI",
+    "name": "Compare Logical",
+    "op_code": "95",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CLM",
+    "name": "Compare Logical Characters under Mask",
+    "op_code": "BD",
+    "format": "RS",
+    "operands": "R1,M3,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CLR",
+    "name": "Compare Logical",
+    "op_code": "15",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CLRCH",
+    "name": "Clear Channel",
+    "op_code": "9F01",
+    "format": "S",
+    "operands": "D2,B2",
+    "sets_conditionCode": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "CLRIO",
+    "name": "Clear I/O",
+    "op_code": "9D01",
+    "format": "S",
+    "operands": "D2,B2",
+    "sets_conditionCode": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "CONCS",
+    "name": "Connect Channel Set",
+    "op_code": "B200",
+    "format": "S",
+    "operands": "D2,B2",
+    "sets_conditionCode": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "CP",
+    "name": "Compare Decimal",
+    "op_code": "F9",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CR",
+    "name": "Compare",
+    "op_code": "19",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CS",
+    "name": "Compare and Swap",
+    "op_code": "BA",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "CVB",
+    "name": "Convert to Binary",
+    "op_code": "4F",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "CVD",
+    "name": "Convert to Decimal",
+    "op_code": "4E",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "D",
+    "name": "Divide",
+    "op_code": "5D",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "DD",
+    "name": "Divide (L)",
+    "op_code": "6D",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "DDR",
+    "name": "Divide (L)",
+    "op_code": "2D",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "DE",
+    "name": "Divide (S)",
+    "op_code": "7D",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "DER",
+    "name": "Divide (S)",
+    "op_code": "3D",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "DISCS",
+    "name": "Disconnect Channel Set",
+    "op_code": "B201",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "DP",
+    "name": "Divide Decimal",
+    "op_code": "FD",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)"
+  },
+  {
+    "mnemonic": "DR",
+    "name": "Divide",
+    "op_code": "1D",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "ED",
+    "name": "Edit",
+    "op_code": "DE",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "EDMK",
+    "name": "Edit and Mark",
+    "op_code": "DF",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "EPAR",
+    "name": "Extract Primary ASN",
+    "op_code": "B226",
+    "format": "RRE",
+    "operands": "R1",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "ESAR",
+    "name": "Extract Secondary ASN",
+    "op_code": "B227",
+    "format": "RRE",
+    "operands": "R1",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "EX",
+    "name": "Execute",
+    "op_code": "44",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "HDR",
+    "name": "Halve (L)",
+    "op_code": "24",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "HDV",
+    "name": "Halt Device",
+    "op_code": "9E01",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "HER",
+    "name": "Halve (S)",
+    "op_code": "34",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "HIO",
+    "name": "Halt I/O",
+    "op_code": "9E00",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "IAC",
+    "name": "Insert Address Space Control",
+    "op_code": "B224",
+    "format": "RRE",
+    "operands": "R1",
+    "is_semiPrivileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "IC",
+    "name": "Insert Character",
+    "op_code": "43",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "ICM",
+    "name": "Insert Characters under Mask",
+    "op_code": "BF",
+    "format": "RS",
+    "operands": "R1,M3,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "IPK",
+    "name": "Insert PSW Key",
+    "op_code": "B20B",
+    "format": "S",
+    "operands": "R1",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "IPTE",
+    "name": "Invalidate Page Table Entry",
+    "op_code": "B221",
+    "format": "RRE",
+    "operands": "R1,R2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "ISK",
+    "name": "Insert Storage Key",
+    "op_code": "09",
+    "format": "RR",
+    "operands": "R1,R2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "ISKE",
+    "name": "Insert Storage Key Extended",
+    "op_code": "B229",
+    "format": "RRE",
+    "operands": "R1,R2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "IVSK",
+    "name": "Insert Virtual Storage Key",
+    "op_code": "B223",
+    "format": "RRE",
+    "operands": "R1,R2",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "L",
+    "name": "Load",
+    "op_code": "58",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "LA",
+    "name": "Load Address",
+    "op_code": "41",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "LASP",
+    "name": "Load Address Space Parameters",
+    "op_code": "E500",
+    "format": "SSE",
+    "operands": "D1(B1),D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LCDR",
+    "name": "Load Complement (L)",
+    "op_code": "23",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LCER",
+    "name": "Load Complement (S)",
+    "op_code": "33",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LCR",
+    "name": "Load Complement",
+    "op_code": "13",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LCTL",
+    "name": "Load Control",
+    "op_code": "B7",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "LD",
+    "name": "Load (L)",
+    "op_code": "68",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "LDR",
+    "name": "Load",
+    "op_code": "28",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "LE",
+    "name": "Load (S)",
+    "op_code": "78",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "LER",
+    "name": "Load (S)",
+    "op_code": "38",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "LH",
+    "name": "Load Halfword",
+    "op_code": "48",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "LM",
+    "name": "Load Multiple",
+    "op_code": "98",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)"
+  },
+  {
+    "mnemonic": "LNDR",
+    "name": "Load Negative (L)",
+    "op_code": "21",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LNER",
+    "name": "Load Negative (S)",
+    "op_code": "31",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LNR",
+    "name": "Load Negative",
+    "op_code": "11",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LPDR",
+    "name": "Load Positive (L)",
+    "op_code": "20",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LPER",
+    "name": "Load Positive (S)",
+    "op_code": "30",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LPR",
+    "name": "Load Positive",
+    "op_code": "10",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LPSW",
+    "name": "Load PSW",
+    "op_code": "82",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "loads_newCC": true
+  },
+  {
+    "mnemonic": "LR",
+    "name": "Load",
+    "op_code": "18",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "LRA",
+    "name": "Load Real Address",
+    "op_code": "B1",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LRDR",
+    "name": "Load Rounded (E/L)",
+    "op_code": "25",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "LRER",
+    "name": "Load Rounded (L/S)",
+    "op_code": "35",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "LTDR",
+    "name": "Load and Test (L)",
+    "op_code": "22",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LTER",
+    "name": "Load and Test (S)",
+    "op_code": "32",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "LTR",
+    "name": "Load and Test",
+    "op_code": "12",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "M",
+    "name": "Multiply",
+    "op_code": "5C",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "MC",
+    "name": "Monitor Call",
+    "op_code": "AF",
+    "format": "SI",
+    "operands": "D1(B1),I2"
+  },
+  {
+    "mnemonic": "MD",
+    "name": "Multiply (L)",
+    "op_code": "6C",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "MDR",
+    "name": "Multiply (L)",
+    "op_code": "2C",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "ME",
+    "name": "Multiply (S/L)",
+    "op_code": "7C",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "MER",
+    "name": "Multiply (S/L)",
+    "op_code": "3C",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "MH",
+    "name": "Multiply Halfword",
+    "op_code": "4C",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "MP",
+    "name": "Multiply Decimal",
+    "op_code": "FC",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)"
+  },
+  {
+    "mnemonic": "MR",
+    "name": "Multiply",
+    "op_code": "1C",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "MVC",
+    "name": "Move",
+    "op_code": "D2",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)"
+  },
+  {
+    "mnemonic": "MVCIN",
+    "name": "Move Inverse",
+    "op_code": "E8",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)"
+  },
+  {
+    "mnemonic": "MVCK",
+    "name": "Move with Key",
+    "op_code": "D9",
+    "format": "SS",
+    "operands": "D1(R1,B1),D2(B2),R3",
+    "sets_conditionCode": true,
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "MVCL",
+    "name": "Move Long",
+    "op_code": "0E",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true,
+    "is_interruptible": true
+  },
+  {
+    "mnemonic": "MVCP",
+    "name": "Move to Primary",
+    "op_code": "DA",
+    "format": "SS",
+    "operands": "D1(R1,B1),D2(B2),R3",
+    "sets_conditionCode": true,
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "MVCS",
+    "name": "Move to Secondary",
+    "op_code": "DB",
+    "format": "SS",
+    "operands": "D1(R1,B1),D2(B2),R3",
+    "sets_conditionCode": true,
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "MVI",
+    "name": "Move",
+    "op_code": "92",
+    "format": "SI",
+    "operands": "D1(B1),I2"
+  },
+  {
+    "mnemonic": "MVN",
+    "name": "Move Numerics",
+    "op_code": "D1",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)"
+  },
+  {
+    "mnemonic": "MVO",
+    "name": "Move with Offset",
+    "op_code": "F1",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)"
+  },
+  {
+    "mnemonic": "MVZ",
+    "name": "Move Zones",
+    "op_code": "D3",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)"
+  },
+  {
+    "mnemonic": "MXD",
+    "name": "Multiply (L/E)",
+    "op_code": "67",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "MXDR",
+    "name": "Multiply (L/E)",
+    "op_code": "27",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "MXR",
+    "name": "Multiply (E)",
+    "op_code": "26",
+    "format": "RR",
+    "operands": "R1,R2"
+  },
+  {
+    "mnemonic": "N",
+    "name": "AND",
+    "op_code": "54",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "NC",
+    "name": "AND",
+    "op_code": "D4",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "NI",
+    "name": "AND",
+    "op_code": "94",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "NR",
+    "name": "AND",
+    "op_code": "14",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "O",
+    "name": "OR",
+    "op_code": "56",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "OC",
+    "name": "OR",
+    "op_code": "D6",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "OI",
+    "name": "OR",
+    "op_code": "96",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "OR",
+    "name": "OR",
+    "op_code": "16",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "PACK",
+    "name": "Pack",
+    "op_code": "F2",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)"
+  },
+  {
+    "mnemonic": "PC",
+    "name": "Program Call",
+    "op_code": "B218",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "PT",
+    "name": "Program Transfer",
+    "op_code": "B228",
+    "format": "RRE",
+    "operands": "R1,R2",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "PTLB",
+    "name": "Purge TLB",
+    "op_code": "B20D",
+    "format": "S",
+    "operands": "",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "RDD",
+    "name": "Read Direct",
+    "op_code": "85",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "RIO",
+    "name": "Resume I/O",
+    "op_code": "9C02",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "RRB",
+    "name": "Reset Reference Bit",
+    "op_code": "B213",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "RRBE",
+    "name": "Reset Reference Bit Extended",
+    "op_code": "B22A",
+    "format": "RRE",
+    "operands": "R1,R2",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "S",
+    "name": "Subtract",
+    "op_code": "5B",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SAC",
+    "name": "Set Address Space Control",
+    "op_code": "B219",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "SCK",
+    "name": "Set Clock",
+    "op_code": "B204",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SCKC",
+    "name": "Set Clock Comparator",
+    "op_code": "B206",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "SD",
+    "name": "Subtract Normalized (L)",
+    "op_code": "6B",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SDR",
+    "name": "Subtract Normalized (L)",
+    "op_code": "2B",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SE",
+    "name": "Subtract Normalized (S)",
+    "op_code": "7B",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SER",
+    "name": "Subtract Normalized (S)",
+    "op_code": "3B",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SH",
+    "name": "Subtract Halfword",
+    "op_code": "4B",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SIGP",
+    "name": "Signal Processor",
+    "op_code": "AE",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SIO",
+    "name": "Start I/O",
+    "op_code": "9C00",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SIOF",
+    "name": "Start I/O Fast Release",
+    "op_code": "9C01",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SL",
+    "name": "Subtract Logical",
+    "op_code": "5F",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SLA",
+    "name": "Shift Left Single",
+    "op_code": "8B",
+    "format": "RS",
+    "operands": "R1,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SLDA",
+    "name": "Shift Left Double",
+    "op_code": "8F",
+    "format": "RS",
+    "operands": "R1,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SLDL",
+    "name": "Shift Left Double Logical",
+    "op_code": "8D",
+    "format": "RS",
+    "operands": "R1,D2(B2)"
+  },
+  {
+    "mnemonic": "SLL",
+    "name": "Shift Left Single Logical",
+    "op_code": "89",
+    "format": "RS",
+    "operands": "R1,D2(B2)"
+  },
+  {
+    "mnemonic": "SLR",
+    "name": "Subtract Logical",
+    "op_code": "1F",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SP",
+    "name": "Subtract Decimal",
+    "op_code": "FB",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SPKA",
+    "name": "Set PSW Key from Address",
+    "op_code": "B20A",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "SPM",
+    "name": "Set Program Mask",
+    "op_code": "04",
+    "format": "RR",
+    "operands": "R1",
+    "loads_newCC": true
+  },
+  {
+    "mnemonic": "SPT",
+    "name": "Set CPU Timer",
+    "op_code": "B208",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "SPX",
+    "name": "Set Prefix",
+    "op_code": "B210",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "SR",
+    "name": "Subtract",
+    "op_code": "1B",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SRA",
+    "name": "Shift Right Single",
+    "op_code": "8A",
+    "format": "RS",
+    "operands": "R1,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SRDA",
+    "name": "Shift Right Double",
+    "op_code": "8E",
+    "format": "RS",
+    "operands": "R1,D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SRDL",
+    "name": "Shift Right Double Logical",
+    "op_code": "8C",
+    "format": "RS",
+    "operands": "R1,D2(B2)"
+  },
+  {
+    "mnemonic": "SRL",
+    "name": "Shift Right Single Logical",
+    "op_code": "88",
+    "format": "RS",
+    "operands": "R1,D2(B2)"
+  },
+  {
+    "mnemonic": "SRP",
+    "name": "Shift and Round Decimal",
+    "op_code": "F0",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SSAR",
+    "name": "Set Secondary ASN",
+    "op_code": "B225",
+    "format": "RRE",
+    "operands": "R1",
+    "is_semiPrivileged": true
+  },
+  {
+    "mnemonic": "SSK",
+    "name": "Set Storage Key",
+    "op_code": "08",
+    "format": "RR",
+    "operands": "R1,R2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "SSKE",
+    "name": "Set Storage Key Extended",
+    "op_code": "B22B",
+    "format": "RRE",
+    "operands": "R1,R2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "SSM",
+    "name": "Set System Mask",
+    "op_code": "80",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "ST",
+    "name": "Store",
+    "op_code": "50",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "STAP",
+    "name": "Store CPU Address",
+    "op_code": "B212",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "STC",
+    "name": "Store Character",
+    "op_code": "42",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "STCK",
+    "name": "Store Clock",
+    "op_code": "B205",
+    "format": "S",
+    "operands": "D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "STCKC",
+    "name": "Store Clock Comparator",
+    "op_code": "B207",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "STCM",
+    "name": "Store Characters under Mask",
+    "op_code": "BE",
+    "format": "RS",
+    "operands": "R1,M3,D2(B2)"
+  },
+  {
+    "mnemonic": "STCTL",
+    "name": "Store Control",
+    "op_code": "B6",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "STD",
+    "name": "Store (L)",
+    "op_code": "60",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "STE",
+    "name": "Store (S)",
+    "op_code": "70",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "STH",
+    "name": "Store Halfword",
+    "op_code": "40",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)"
+  },
+  {
+    "mnemonic": "STIDC",
+    "name": "Store Channel ID",
+    "op_code": "B203",
+    "format": "S",
+    "operands": "R1,D2(X2,B2)",
+    "is_privileged": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "STIDP",
+    "name": "Store CPU ID",
+    "op_code": "B202",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "STM",
+    "name": "Store Multiple",
+    "op_code": "90",
+    "format": "RS",
+    "operands": "R1,R3,D2(B2)"
+  },
+  {
+    "mnemonic": "STNSM",
+    "name": "Store Then AND System Mask",
+    "op_code": "AC",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "STOSM",
+    "name": "Store Then OR System Mask",
+    "op_code": "AD",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "STPT",
+    "name": "Store CPU Timer",
+    "op_code": "B209",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "STPX",
+    "name": "Store Prefix",
+    "op_code": "B211",
+    "format": "S",
+    "operands": "D2(B2)",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "SU",
+    "name": "Subtract Unnormalized (S)",
+    "op_code": "7F",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SUR",
+    "name": "Subtract Unnormalized (S)",
+    "op_code": "3F",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SVC",
+    "name": "Supervisor Call",
+    "op_code": "0A",
+    "format": "RR",
+    "operands": "I"
+  },
+  {
+    "mnemonic": "SW",
+    "name": "Subtract Unnormalized (L)",
+    "op_code": "6F",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SWR",
+    "name": "Subtract Unnormalized (L)",
+    "op_code": "2F",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "SXR",
+    "name": "Subtract Normalized (E)",
+    "op_code": "37",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "TB",
+    "name": "Test Block",
+    "op_code": "B22C",
+    "format": "RRE",
+    "operands": "R1,R2",
+    "sets_conditionCode": true,
+    "is_interruptible": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "TCH",
+    "name": "Test Channel",
+    "op_code": "9F00",
+    "format": "S",
+    "operands": "D2(B2)",
+    "sets_conditionCode": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "TIO",
+    "name": "Test I/O",
+    "op_code": "9D00",
+    "format": "S",
+    "operands": "D2(B2)",
+    "sets_conditionCode": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "TM",
+    "name": "Test under Mask",
+    "op_code": "91",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "TPROT",
+    "name": "Test Protection",
+    "op_code": "E501",
+    "format": "SSE",
+    "operands": "D1(B1),D2(B2)",
+    "sets_conditionCode": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "TR",
+    "name": "Translate",
+    "op_code": "DC",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)"
+  },
+  {
+    "mnemonic": "TRT",
+    "name": "Translate and Test",
+    "op_code": "DD",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "TS",
+    "name": "Test and Set",
+    "op_code": "93",
+    "format": "S",
+    "operands": "D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "UNPK",
+    "name": "Unpack",
+    "op_code": "F3",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)"
+  },
+  {
+    "mnemonic": "VA",
+    "name": "Add",
+    "op_code": "A420",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VACD",
+    "name": "AccumUlate (L)",
+    "op_code": "A417",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VACDR",
+    "name": "Accumulate (L)",
+    "op_code": "A517",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VACE",
+    "name": "Accumulate (S/L)",
+    "op_code": "A407",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VACER",
+    "name": "Accumulate (S/L)",
+    "op_code": "A507",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VACRS",
+    "name": "Restore VAC",
+    "op_code": "A6CA",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "N0",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "VACSV",
+    "name": "Save VAC",
+    "op_code": "A6CA",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "N0",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "VAD",
+    "name": "Add (L)",
+    "op_code": "A410",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VADQ",
+    "name": "Add (L)",
+    "op_code": "A590",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VADS",
+    "name": "Add (L)",
+    "op_code": "A490",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VAE",
+    "name": "Add (S)",
+    "op_code": "A400",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VAEQ",
+    "name": "Add (S)",
+    "op_code": "A580",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VAER",
+    "name": "Add (S)",
+    "op_code": "A500",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VAES",
+    "name": "Add (S)",
+    "op_code": "A480",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VAQ",
+    "name": "Add",
+    "op_code": "A5A0",
+    "format": "QV",
+    "operands": "VR1,GR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VAR",
+    "name": "Add",
+    "op_code": "A520",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VAS",
+    "name": "Add",
+    "op_code": "A4A0",
+    "format": "QST",
+    "operands": "VR1,GR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VC",
+    "name": "Compare",
+    "op_code": "A428",
+    "format": "VST",
+    "operands": "M1,VR3,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCD",
+    "name": "Compare (L)",
+    "op_code": "A418",
+    "format": "VST",
+    "operands": "M1,VR3,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCDQ",
+    "name": "Compare (L)",
+    "op_code": "A598",
+    "format": "QV",
+    "operands": "M1,FR3,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCDR",
+    "name": "Compare (L)",
+    "op_code": "A518",
+    "format": "VV",
+    "operands": "M1,VR3,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCDS",
+    "name": "Compare (L)",
+    "op_code": "A498",
+    "format": "QST",
+    "operands": "M1,FR3,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCE",
+    "name": "Compare (S)",
+    "op_code": "A408",
+    "format": "VST",
+    "operands": "M1,VR3,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCEQ",
+    "name": "Compare (S)",
+    "op_code": "A588",
+    "format": "QV",
+    "operands": "M1,FR3,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCER",
+    "name": "Compare (S)",
+    "op_code": "A508",
+    "format": "VV",
+    "operands": "M1,VR3,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCES",
+    "name": "Compare (S)",
+    "op_code": "A488",
+    "format": "QST",
+    "operands": "M1,FR3,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCOVM",
+    "name": "Count Ones in VMR",
+    "op_code": "A643",
+    "format": "RRE",
+    "operands": "GR1",
+    "class": "NC",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VCQ",
+    "name": "Compare",
+    "op_code": "A5A8",
+    "format": "QV",
+    "operands": "M1,GR3,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCR",
+    "name": "Compare",
+    "op_code": "A528",
+    "format": "VV",
+    "operands": "M1,VR3,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCS",
+    "name": "Compare",
+    "op_code": "A4A8",
+    "format": "QST",
+    "operands": "M1,GR3,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VCVM",
+    "name": "Complement VMR",
+    "op_code": "A641",
+    "format": "RRE",
+    "class": "NC"
+  },
+  {
+    "mnemonic": "VCZVM",
+    "name": "Count Left Zeros in VMR",
+    "op_code": "A642",
+    "format": "RRE",
+    "operands": "GR1",
+    "class": "NC",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VDD",
+    "name": "Divide (L)",
+    "op_code": "A413",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VDDQ",
+    "name": "Divide (L)",
+    "op_code": "A593",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VDDR",
+    "name": "Divide (L)",
+    "op_code": "A513",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VDDS",
+    "name": "Divide (L)",
+    "op_code": "A493",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VDE",
+    "name": "Divide (S)",
+    "op_code": "A403",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VDEQ",
+    "name": "Divide (S)",
+    "op_code": "A583",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VDER",
+    "name": "Divide (S)",
+    "op_code": "A503",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VDES",
+    "name": "Divide (S)",
+    "op_code": "A483",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VL",
+    "name": "Load",
+    "op_code": "A409",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLBIX",
+    "name": "Load Bit Index",
+    "op_code": "E428",
+    "format": "RSE",
+    "operands": "VR1,GR3,D2(B2)",
+    "class": "IG",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VLCDR",
+    "name": "Load Complement (L)",
+    "op_code": "A552",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLCDR",
+    "name": "Load Complement (S)",
+    "op_code": "A542",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLCR",
+    "name": "Load Complement",
+    "op_code": "A562",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLCVM",
+    "name": "Load VMR Complement",
+    "op_code": "A681",
+    "format": "VS",
+    "operands": "RS2",
+    "class": "NC"
+  },
+  {
+    "mnemonic": "VLD",
+    "name": "Load (L)",
+    "op_code": "A419",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLDQ",
+    "name": "Load (L)",
+    "op_code": "A599",
+    "format": "QV",
+    "operands": "VR1,FR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLE",
+    "name": "Load (S)",
+    "op_code": "A409",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLEL",
+    "name": "Load Element",
+    "op_code": "A628",
+    "format": "VR",
+    "operands": "VR1,GR3,GR2",
+    "class": "N1"
+  },
+  {
+    "mnemonic": "VLELD",
+    "name": "Load Element (L)",
+    "op_code": "A618",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "N1"
+  },
+  {
+    "mnemonic": "VLELE",
+    "name": "Load Element (S)",
+    "op_code": "A608",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "N1"
+  },
+  {
+    "mnemonic": "VLEQ",
+    "name": "Load (S)",
+    "op_code": "A589",
+    "format": "QV",
+    "operands": "VR1,FR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLER",
+    "name": "Load (S)",
+    "op_code": "A509",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLH",
+    "name": "Load Halfword",
+    "op_code": "A429",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLI",
+    "name": "Load Indirect",
+    "op_code": "E400",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLID",
+    "name": "Load Indirect (L)",
+    "op_code": "E410",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLIE",
+    "name": "Load Indirect (S)",
+    "op_code": "E400",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLINT",
+    "name": "Load Integer Vector",
+    "op_code": "A42A",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLM",
+    "name": "Load Matched",
+    "op_code": "A40A",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLMD",
+    "name": "Load Matched (L)",
+    "op_code": "A41A",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLMDQ",
+    "name": "Load Matched (L)",
+    "op_code": "A59A",
+    "format": "QV",
+    "operands": "VR1,FR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLMDR",
+    "name": "Load Matched (L)",
+    "op_code": "A51A",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLME",
+    "name": "Load Matched (S)",
+    "op_code": "A40A",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLMEQ",
+    "name": "Load Matched (S)",
+    "op_code": "A58A",
+    "format": "QV",
+    "operands": "VR1,FR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLMER",
+    "name": "Load Matched (S)",
+    "op_code": "A50A",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLMQ",
+    "name": "Load Matched",
+    "op_code": "A5AA",
+    "format": "QV",
+    "operands": "VR1,GR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLMR",
+    "name": "Load Matched",
+    "op_code": "A50A",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLNDR",
+    "name": "Load Negative (L)",
+    "op_code": "A551",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLNER",
+    "name": "Load Negative (S)",
+    "op_code": "A541",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLNR",
+    "name": "Load Negative",
+    "op_code": "A561",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLPDR",
+    "name": "Load Positive (L)",
+    "op_code": "A550",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLPER",
+    "name": "Load Positive (S)",
+    "op_code": "A540",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLPR",
+    "name": "Load Positive",
+    "op_code": "A560",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VLQ",
+    "name": "Load",
+    "op_code": "A5A9",
+    "format": "QV",
+    "operands": "VR1,GR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLR",
+    "name": "Load",
+    "op_code": "A509",
+    "format": "VV",
+    "operands": "VR1,VR2",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLVCA",
+    "name": "Load VCT from Address",
+    "op_code": "A6C4",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "N0",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VLVCU",
+    "name": "Load VCT and Update",
+    "op_code": "A645",
+    "format": "RRE",
+    "operands": "GR1",
+    "class": "N0",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VLVM",
+    "name": "Load VMR",
+    "op_code": "A680",
+    "format": "VS",
+    "operands": "RS2",
+    "class": "NC"
+  },
+  {
+    "mnemonic": "VLY",
+    "name": "Load Expanded",
+    "op_code": "A40B",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLYD",
+    "name": "Load Expanded (L)",
+    "op_code": "A41B",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLYE",
+    "name": "Load Expanded (S)",
+    "op_code": "A40B",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLZDR",
+    "name": "Load Zero (L)",
+    "op_code": "A51B",
+    "format": "VV",
+    "operands": "VR1",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLZER",
+    "name": "Load Zero (S)",
+    "op_code": "A50B",
+    "format": "VV",
+    "operands": "VR1",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VLZR",
+    "name": "Load Zero",
+    "op_code": "A50B",
+    "format": "VV",
+    "operands": "VR1",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VM",
+    "name": "Multiply",
+    "op_code": "A422",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMAD",
+    "name": "Multiply and Add (L)",
+    "op_code": "A414",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMADQ",
+    "name": "Multiply and Add (L)",
+    "op_code": "A594",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMADS",
+    "name": "Multiply and Add (L)",
+    "op_code": "A494",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMAE",
+    "name": "Multiply and Add (S/L)",
+    "op_code": "A404",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMAEQ",
+    "name": "Multiply and Add (S/L)",
+    "op_code": "A584",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMAES",
+    "name": "Multiply and Add (S/L)",
+    "op_code": "A484",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMCD",
+    "name": "Multiply and Accumulate (L)",
+    "op_code": "A416",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMCDR",
+    "name": "Multiply and Accumulate (L)",
+    "op_code": "A516",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMCE",
+    "name": "Multiply and Accumulate (S/L)",
+    "op_code": "A406",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMCER",
+    "name": "Multiply and Accumulate (S/L)",
+    "op_code": "A506",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMD",
+    "name": "Multiply (L)",
+    "op_code": "A412",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMDQ",
+    "name": "Multiply (L)",
+    "op_code": "A592",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMDR",
+    "name": "Multiply (L)",
+    "op_code": "A512",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMDS",
+    "name": "Multiply (L)",
+    "op_code": "A492",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VME",
+    "name": "Multiply (S/L)",
+    "op_code": "A402",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMEQ",
+    "name": "Multiply (S/L)",
+    "op_code": "A582",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMER",
+    "name": "Multiply (S/L)",
+    "op_code": "A502",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMES",
+    "name": "Multiply (S/L)",
+    "op_code": "A482",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMNSD",
+    "name": "Minimum Signed (L)",
+    "op_code": "A611",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMNSE",
+    "name": "Minimum Signed (S)",
+    "op_code": "A601",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMQ",
+    "name": "Multiply",
+    "op_code": "A5A2",
+    "format": "QV",
+    "operands": "VR1,GR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMR",
+    "name": "Multiply",
+    "op_code": "A522",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMRRS",
+    "name": "Restore VMR",
+    "op_code": "A6C3",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "NZ"
+  },
+  {
+    "mnemonic": "VMRSV",
+    "name": "Save VMR",
+    "op_code": "A6C1",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "NZ"
+  },
+  {
+    "mnemonic": "VMS",
+    "name": "Multiply",
+    "op_code": "A4A2",
+    "format": "QST",
+    "operands": "VR1,GR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMSD",
+    "name": "Multiply and Subtract (L)",
+    "op_code": "A415",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMSDQ",
+    "name": "Multiply and Subtract (L)",
+    "op_code": "A595",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMSDS",
+    "name": "Multiply and Subtract (L)",
+    "op_code": "A495",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMSE",
+    "name": "Multiply and Subtract (S/L)",
+    "op_code": "A405",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMSEQ",
+    "name": "Multiply and Subtract (S/L)",
+    "op_code": "A585",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMSES",
+    "name": "Multiply and Subtract (S/L)",
+    "op_code": "A485",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMXAD",
+    "name": "Maximum Absolute (L)",
+    "op_code": "A612",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMXAE",
+    "name": "Maximum Absolute (S)",
+    "op_code": "A602",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMXSD",
+    "name": "Maximum Signed (L)",
+    "op_code": "A610",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VMXSE",
+    "name": "Maximum Signed (S)",
+    "op_code": "A600",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VN",
+    "name": "AND",
+    "op_code": "A424",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VNQ",
+    "name": "AND",
+    "op_code": "A5A4",
+    "format": "QV",
+    "operands": "VR1,GR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VNR",
+    "name": "AND",
+    "op_code": "A524",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VNS",
+    "name": "AND",
+    "op_code": "A4A4",
+    "format": "QST",
+    "operands": "VR1,GR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VNVM",
+    "name": "AND to VMR",
+    "op_code": "A684",
+    "format": "VS",
+    "operands": "RS2",
+    "class": "NC"
+  },
+  {
+    "mnemonic": "VO",
+    "name": "OR",
+    "op_code": "A425",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VOQ",
+    "name": "OR",
+    "op_code": "A5A5",
+    "format": "QV",
+    "operands": "VR1,GR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VOR",
+    "name": "OR",
+    "op_code": "A525",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VOS",
+    "name": "OR",
+    "op_code": "A4A5",
+    "format": "QST",
+    "operands": "VR1,GR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VOVM",
+    "name": "OR to VMR",
+    "op_code": "A685",
+    "format": "VS",
+    "operands": "RS2",
+    "class": "NC"
+  },
+  {
+    "mnemonic": "VRCL",
+    "name": "Clear VR",
+    "op_code": "A6C5",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "IZ"
+  },
+  {
+    "mnemonic": "VRRS",
+    "name": "Restore VR",
+    "op_code": "A648",
+    "format": "RRE",
+    "operands": "GR1",
+    "class": "IZ",
+    "is_state_differ": true,
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VRSV",
+    "name": "Save VR",
+    "op_code": "A64A",
+    "format": "RRE",
+    "operands": "GR1",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VRSVC",
+    "name": "Save Changed VR",
+    "op_code": "A649",
+    "format": "RRE",
+    "operands": "GR1",
+    "class": "IZ",
+    "sets_conditionCode": true,
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "VS",
+    "name": "Subtract",
+    "op_code": "A421",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSD",
+    "name": "Subtract (L)",
+    "op_code": "A411",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSDQ",
+    "name": "Subtract (L)",
+    "op_code": "A591",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSDR",
+    "name": "Subtract (L)",
+    "op_code": "A511",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSDS",
+    "name": "Subtract (L)",
+    "op_code": "A491",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSE",
+    "name": "Subtract (S)",
+    "op_code": "A401",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSEQ",
+    "name": "Subtract (S)",
+    "op_code": "A581",
+    "format": "QV",
+    "operands": "VR1,FR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSER",
+    "name": "Subtract (S)",
+    "op_code": "A501",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSES",
+    "name": "Subtract (S)",
+    "op_code": "A481",
+    "format": "QST",
+    "operands": "VR1,FR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSLL",
+    "name": "Shift Left Single Logical",
+    "op_code": "E425",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSPSD",
+    "name": "Sum Partial Sums (L)",
+    "op_code": "A61A",
+    "format": "VR",
+    "operands": "VR1,FR2",
+    "class": "IP"
+  },
+  {
+    "mnemonic": "VSQ",
+    "name": "Subtract",
+    "op_code": "A5A1",
+    "format": "QV",
+    "operands": "VR1,GR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSR",
+    "name": "Subtract",
+    "op_code": "A521",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSRL",
+    "name": "Shift Right Single Logical",
+    "op_code": "E424",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VSRRS",
+    "name": "Restore VSR",
+    "op_code": "A6C2",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "IZ",
+    "is_state_differ": true
+  },
+  {
+    "mnemonic": "VSRSV",
+    "name": "Save VSR",
+    "op_code": "A6C0",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "N0",
+    "is_state_differ": true
+  },
+  {
+    "mnemonic": "VSS",
+    "name": "Subtract",
+    "op_code": "A4A1",
+    "format": "QST",
+    "operands": "VR1,GR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VST",
+    "name": "Store",
+    "op_code": "A40D",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTD",
+    "name": "Store (L)",
+    "op_code": "A41D",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTE",
+    "name": "Store (S)",
+    "op_code": "A40D",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTH",
+    "name": "Store Halfword",
+    "op_code": "A42D",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTI",
+    "name": "Store Indirect",
+    "op_code": "E401",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTID",
+    "name": "Store Indirect (L)",
+    "op_code": "E411",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTIE",
+    "name": "Store Indirect (S)",
+    "op_code": "E401",
+    "format": "RSE",
+    "operands": "VR1,VR3,D2(B2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTK",
+    "name": "Store Compressed",
+    "op_code": "A40F",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTKD",
+    "name": "Store Compressed (L)",
+    "op_code": "A41F",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTKE",
+    "name": "Store Compressed (S)",
+    "op_code": "A40F",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTM",
+    "name": "Store Matched",
+    "op_code": "A40E",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTMD",
+    "name": "Store Matched (L)",
+    "op_code": "A41E",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTME",
+    "name": "Store Matched (S)",
+    "op_code": "A40E",
+    "format": "VST",
+    "operands": "VR1,RS2(RT2)",
+    "class": "IC"
+  },
+  {
+    "mnemonic": "VSTVM",
+    "name": "Store VMR",
+    "op_code": "A682",
+    "format": "VS",
+    "operands": "RS2",
+    "class": "NC"
+  },
+  {
+    "mnemonic": "VSTVP",
+    "name": "Store Vector Parameters",
+    "op_code": "A6C8",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "N0"
+  },
+  {
+    "mnemonic": "VSVMM",
+    "name": "Set Vector Mask Mode",
+    "op_code": "A6C6",
+    "format": "S",
+    "operands": "D2(B2)",
+    "class": "N0"
+  },
+  {
+    "mnemonic": "VTVM",
+    "name": "Test VMR",
+    "op_code": "A640",
+    "format": "RRE",
+    "class": "NC",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VX",
+    "name": "Exclusive OR",
+    "op_code": "A426",
+    "format": "VST",
+    "operands": "VR1,VR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VXEL",
+    "name": "Extract Element",
+    "op_code": "A629",
+    "format": "VR",
+    "operands": "VR1,GR3,GR2",
+    "class": "N1"
+  },
+  {
+    "mnemonic": "VXELD",
+    "name": "Extract Element (L)",
+    "op_code": "A619",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "N1"
+  },
+  {
+    "mnemonic": "VXELE",
+    "name": "Extract Element (S)",
+    "op_code": "A609",
+    "format": "VR",
+    "operands": "VR1,FR3,GR2",
+    "class": "N1"
+  },
+  {
+    "mnemonic": "VXQ",
+    "name": "Exclusive OR",
+    "op_code": "57",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VXQ",
+    "name": "Exclusive OR",
+    "op_code": "57",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VXR",
+    "name": "Exclusive OR",
+    "op_code": "A526",
+    "format": "VV",
+    "operands": "VR1,VR3,VR2",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VXS",
+    "name": "Exclusive OR",
+    "op_code": "A4A6",
+    "format": "QST",
+    "operands": "VR1,GR3,RS2(RT2)",
+    "class": "IM"
+  },
+  {
+    "mnemonic": "VXVC",
+    "name": "Extract VCT",
+    "op_code": "A644",
+    "format": "RRE",
+    "operands": "GR1",
+    "class": "N0"
+  },
+  {
+    "mnemonic": "VXVM",
+    "name": "Exclusive OR to VMR",
+    "op_code": "A686",
+    "format": "VS",
+    "operands": "RS2",
+    "class": "NC"
+  },
+  {
+    "mnemonic": "VXVMM",
+    "name": "Extract Vector Mask Mode",
+    "op_code": "A646",
+    "format": "RRE",
+    "operands": "GR1",
+    "class": "N0"
+  },
+  {
+    "mnemonic": "VZPSD",
+    "name": "Zero Partial Sums (L)",
+    "op_code": "A61B",
+    "format": "VR",
+    "operands": "VR1",
+    "class": "IP"
+  },
+  {
+    "mnemonic": "WRD",
+    "name": "Write Direct",
+    "op_code": "84",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "is_privileged": true
+  },
+  {
+    "mnemonic": "X",
+    "name": "Exclusive OR",
+    "op_code": "57",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "XC",
+    "name": "Exclusive OR",
+    "op_code": "D7",
+    "format": "SS",
+    "operands": "D1(L,B1),D2(B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VXQ",
+    "name": "Exclusive OR",
+    "op_code": "57",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "XI",
+    "name": "Exclusive OR",
+    "op_code": "97",
+    "format": "SI",
+    "operands": "D1(B1),I2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VXQ",
+    "name": "Exclusive OR",
+    "op_code": "57",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "XR",
+    "name": "Exclusive OR",
+    "op_code": "17",
+    "format": "RR",
+    "operands": "R1,R2",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VXQ",
+    "name": "Exclusive OR",
+    "op_code": "57",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "ZAP",
+    "name": "Zero and Add",
+    "op_code": "F8",
+    "format": "SS",
+    "operands": "D1(L1,B1),D2(L2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "mnemonic": "VXQ",
+    "name": "Exclusive OR",
+    "op_code": "57",
+    "format": "RX",
+    "operands": "R1,D2(X2,B2)",
+    "sets_conditionCode": true
+  },
+  {
+    "name": "Diagnose",
+    "op_code": "83",
+    "operands": "Model-dependent",
+    "is_privileged": true,
+    "may_set_conditionCode": true
+  }
+]

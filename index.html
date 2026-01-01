@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yellow Book</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="header-wrapper">
+        <h1 class="header">System/360 Reference Data</h1>
+      </header>
+
+      <section class="panel">
+        <div class="panel-title">Instruction Search</div>
+        <div class="panel-subtitle">
+          Search by OP code, mnemonic, name, or description-like fields (operands, format).
+        </div>
+        <form class="search-form" onsubmit="return false;">
+          <div class="search-input-wrapper">
+            <img class="search-img" src="./images/search-sm.png" alt="Search icon" />
+            <input
+              id="searchInput"
+              class="search-input"
+              type="search"
+              placeholder="Search e.g. '5A', 'Add', 'Branch', 'R1,R2'..."
+            />
+            <button id="clearBtn" class="btn btn-secondary" type="button">Clear</button>
+          </div>
+        </form>
+
+        <div class="controls-row">
+          <div class="field-toggles">
+            <span class="muted">Fields:</span>
+            <label><input type="checkbox" checked data-field="op_code" />OP code</label>
+            <label><input type="checkbox" checked data-field="mnemonic" />Mnemonic</label>
+            <label><input type="checkbox" checked data-field="name" />Name</label>
+            <label><input type="checkbox" data-field="description" />Description</label>
+            <label><input type="checkbox" checked data-field="operands" />Operands</label>
+            <label><input type="checkbox" checked data-field="format" />Format</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="table-card">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>OP</th>
+              <th>Mnemonic</th>
+              <th>Name</th>
+              <th>Format</th>
+              <th>Operands</th>
+              <th>Flags</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+  <script src="./scripts/app.js" defer></script>
+</html>
