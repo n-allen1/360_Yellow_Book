@@ -121,6 +121,23 @@ body {
   font-size: 13px;
 }
 
+.panel-small {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .panel-small {
+    display: block;
+    font-size: 13px;
+    background: rgba(255, 242, 191, 0.6);
+  }
+
+  .panel-small .panel-title {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+}
+
 .controls-row {
   display: flex;
   justify-content: space-between;
