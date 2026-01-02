@@ -33,18 +33,37 @@
               placeholder="Search e.g. '5A', 'Add', 'Branch', 'R1,R2'..."
             />
             <button id="clearBtn" class="btn btn-secondary" type="button">Clear</button>
+            <span id="resultCount" class="panel-subtitle"></span>
           </div>
         </form>
 
         <div class="controls-row">
           <div class="field-toggles">
             <span class="muted">Fields:</span>
-            <label><input type="checkbox" checked data-field="op_code" />OP code</label>
-            <label><input type="checkbox" checked data-field="mnemonic" />Mnemonic</label>
-            <label><input type="checkbox" checked data-field="name" />Name</label>
-            <label><input type="checkbox" data-field="description" />Description</label>
-            <label><input type="checkbox" checked data-field="operands" />Operands</label>
-            <label><input type="checkbox" checked data-field="format" />Format</label>
+            <label>
+              <input type="checkbox" checked data-field="op_code" />
+              OP code
+            </label>
+            <label>
+              <input type="checkbox" checked data-field="mnemonic" />
+              Mnemonic
+            </label>
+            <label>
+              <input type="checkbox" checked data-field="name" />
+              Name
+            </label>
+            <label>
+              <input type="checkbox" data-field="description" />
+              Description
+            </label>
+            <label>
+              <input type="checkbox" checked data-field="operands" />
+              Operands
+            </label>
+            <label>
+              <input type="checkbox" checked data-field="format" />
+              Format
+            </label>
           </div>
         </div>
       </section>
